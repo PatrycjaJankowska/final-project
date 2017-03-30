@@ -147,10 +147,7 @@ box-sizing: content-box;
     /*background-color: rosybrown;*/
     height: 100%;
     width:27%;
-    /*display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;*/
+    
 }
 
 #header{
@@ -273,19 +270,40 @@ box-sizing: content-box;
     background-repeat: no-repeat;
     width:309px;
     height: 333px;
+    padding-top: 7.5%;
     display: flex;
     justify-content: flex-start;
         '
 }
 .me{
-    margin-top: 31.5%;
-    margin-left: 39.5%;
-    background-image: url(../images/ja.png);
-    background-size: contain;
+    /*margin-top: 31.5%;
+    margin-left: 39.5%;*/
+    /*background-image: url(../images/ja.png);
+    background-size: cover;
     background-repeat: no-repeat;
     width: 93px;
-    height: 114px;
+    height: 114px;*/
 }
+.slider {
+  height: 115px;
+  width: 94px;
+  overflow: hidden;
+  margin-left: 38%;
+  
+}
+
+.slider ul {
+  list-style: none;
+  padding:0px;
+  margin:0px;
+  position:relative;
+  left:-182px;
+}
+
+.slider li {
+ float:left;
+}
+
 .napis{
     font-family: Algerian;
     font-size: 16px;
@@ -498,8 +516,15 @@ a{
     font-size: 32px;
     width: 100%;
     color: #56412b;
-    margin-top: 5em;
+    margin-top: 2em;
     padding-left: 2em;
+}
+.harry{
+    display:none;
+    font-family: sacramento;
+    margin-left: 40px;
+    color:#56412b;
+    font-size: 32px;
 }
 
 #container3{
@@ -517,7 +542,7 @@ a{
     
 
 
-@media (max-width: 1280px) and (min-width: 768px){
+@media (max-width: 1280px) and (min-width: 900px){
     .tk-birch-std, .EscapeSecondText, .findOut{
        font-size: 25px;
        padding-left: 2em;
@@ -530,13 +555,7 @@ a{
     .insta{
         left:30em;
     }
-    .me{
-        background-size: contain;
-        background-image: url(../images/Eiffel.png);
-        width: 80px;
-        height: 100px;
-        margin-left: 8em;
-    }
+    
     .round1{
         left: 36%;
         top: 38%;
@@ -544,10 +563,18 @@ a{
     .round2{
         display: none;
     }
+    #abUS{
+    background-image: url(../images/ramka2.png);
+    background-size: contain;
+    width: 180px;
+    height: 220px;
+    padding-top: 40px;
+    padding-right: 30px;
+    }
 }
 
 
-@media (max-width: 768px) and (min-width: 480px){
+@media (max-width: 900px) and (min-width: 480px){
     .tk-birch-std, .EscapeSecondText, .findOut{
         font-size: 20px;
         padding-top: 2px;
@@ -585,6 +612,7 @@ a{
     .oldPaper{
         margin-left: 0px;
     }
+    
 }
 
 

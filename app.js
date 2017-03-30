@@ -53,7 +53,9 @@ $(document).ready(function() {
         $('.book1').show();
     });
     
-    function slideGallery() {
+    
+
+function slideGallery() {
         var buttonNext = $('.key');
         var buttonPrev = $('.witaj');
         var pictures = $('li'); 
@@ -64,14 +66,14 @@ $(document).ready(function() {
         pictures.last().after(clone1);
         pictures.first().before(clone2);
         
-        var imgWidth = $('img').width();
+        var imgWidth = pictures.width();
         ulSlider.width(imgWidth * $("img").length);
         var position = - imgWidth;
         ulSlider.css("left", position);
         index = 1;
         
         buttonNext.on("click", function() {
-            $(this).fadeOut(200).fadeIn(500);
+           
             index += 1;
             slide(index);
             if ( index >= $("li").length - 1 ) {
@@ -80,11 +82,11 @@ $(document).ready(function() {
         });
             
         buttonPrev.on("click", function() {
-            $(this).fadeOut(200).fadeIn(500);
+            
             index -= 1;
             slide(index);
             if ( index <= 0 ) {
-                index = $("li").length - 2;
+                index = $("li").length - 1;
                 };
             });   
             
@@ -98,7 +100,7 @@ $(document).ready(function() {
                 ulSlider.animate({
                     left: -slideVal
                         }, { complete: function() {
-                            var positionEnd = -(imgWidth * $("img").length) + (2 * imgWidth);
+                            var positionEnd = -(imgWidth * $("li").length) + (2 * imgWidth);
                             ulSlider.css("left", positionEnd);
                     }});
                 }
@@ -106,14 +108,28 @@ $(document).ready(function() {
                     ulSlider.animate({
                         left: -slideVal
                         }, { complete: function() {
-                            var position = -($("img").width());
+                            var position = -($("li").width());
                             ulSlider.css("left", position);
                         }});
                 }
             }
         }
     slideGallery();
+    
+    $('.key').on('click', function() {
+        var width = $('body').width();
+        if(width<866) {
+            $('.harry').fadeToggle(3000).css('display','block');
+            $('.witaj').css('display','none');
+        } else {
+            $('.witaj').css('display','block');
+        }
+    });
+    
 });
+
+   
+
    
 
     
