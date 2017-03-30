@@ -1,0 +1,602 @@
+.container{
+background-image: url(../images/Background.png);
+background-size: cover;
+width:100%;
+height: 100vh;
+margin: 0auto;
+box-sizing: content-box;
+}
+.main{
+    max-width: 1300px;
+    margin: 0 auto;
+    display:flex;
+    height: 100%;
+    min-height: 100vh;
+    flex: 1;
+     -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; 
+  justify-content: center;
+    align-items: center;
+}
+
+
+ #container4 {
+      /-webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; 
+        width:100%;
+        background-image: url(../images/Backgroundshort.png);
+        background-size: contain;
+        padding-top: 1em;
+     } 
+@media (max-width: 480px) {
+     .container{
+         display:none;
+     }
+}
+@media (min-width:480px) {
+    #container4{
+        display:none;
+    }
+}
+
+
+     .headerMobile{
+         background-image: url(../images/logoER2.png);
+         background-size: 80%;
+         background-repeat: no-repeat;
+         width:100%;
+         height: 5em;  
+     }
+     .infoMobile{
+         font-family: sacramento;
+         color: floralwhite;
+         padding: 1em;
+         font-size: 25px;
+     }
+     .abUsMobile{
+         background-image: url(../images/woodbox1.png);
+         background-size: contain;
+         background-repeat: no-repeat;
+         height: 3em;
+         margin-left: 2em;
+     }
+     .logoMobile{
+         font-family: Elephant;
+         color:#56412b;
+     }
+     .shopMobile{
+         background-image: url(../images/sklep2.png);
+         height: 22em;
+         background-size: contain;
+         background-repeat: no-repeat;
+         padding: 0px;
+     }
+     .findOutMobile{
+         height: 42em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+     }
+     .info2{
+         color:#56412b;
+         margin-bottom: 0px;
+     }
+     .eiffel{
+         background-image: url(../images/Eiffel.png);
+         height: 10em;
+         background-size: contain;
+         background-repeat: no-repeat;
+         width: 20em;
+         display: flex;
+         justify-content: center;
+     }
+     .Mobile2{
+         margin: 0px;
+         height: 42em;
+     }
+     .telephoneboxMobile{
+         background-image: url(../images/kontaktbox.png);
+         width: 100%;
+         height: 6em;
+         background-size: contain;
+     }
+     .sorryMobile{
+         background-image: url(../images/backgroundFloral.png);
+         height:25em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     .sorrytext{
+         font-family: sacramento;
+         font-size: 35px;
+         width: 8em;
+         text-align: center;
+         border: 2px dashed #56412b;
+     }
+
+     
+     
+
+   
+
+            
+
+.mainColumnLeft{
+    /*background-color: palegreen;*/
+    height: 100%;
+    width:73%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.mainColumnRight{
+    /*background-color: rosybrown;*/
+    height: 100%;
+    width:27%;
+    /*display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;*/
+}
+
+#header{
+    background-image: url(../images/logoER2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-color: darkeagreen;*/
+    width: 100%;
+    height: 4em;
+    margin-top: 1em;
+    margin-left: 10em;
+   
+}
+ 
+.mainLeftLeft{
+    /*background-color: lightyellow;*/
+    height: 89%;
+    width:68%;
+    display:inline;
+    float:left;
+}
+.mainLeftRight{
+    /*background-color: red;*/
+    height: 89%;
+    width:32%;
+    display: flex;
+    float: left;
+}
+.aboutUs{
+    height: 5em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/woodbox1.png);
+    background-size: contain;
+    margin-left: 3em;
+    /*background-color: orange;*/    
+}
+
+#bigShop{
+    height:85%;
+    /*background-color: green;*/
+}
+
+.contact{
+    height: 52%;
+    /*background-color:crimson; */   
+}
+.game{
+    background-image: url(../images/zagraj3.png);
+    background-size: contain;
+    height: 16em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    background-repeat: no-repeat;
+    /*background-color: darkgray;*/
+}
+.shop{
+    position:relative;
+    z-index: 2;
+    background-image: url(../images/sklep2nlogo2.png);
+    width:597px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    margin-left:48%;
+    padding-top:10px;
+}
+
+.telephonebox{
+    background-image: url(../images/kontaktbox.png);
+    height: 333px;
+    background-size: contain;
+    padding-top: 5%;
+    padding-left: 13%;
+    margin-left: 30%;
+    margin-top: 7%;
+    background-repeat: no-repeat;
+}
+.insta{
+    position:absolute;
+    bottom: 5%;
+    left:42em;
+}
+.escape{
+    margin-left: -9em;
+    margin-top: 0.5em;
+    background-image: url(../images/Eiffel3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24em;
+    width: 36em;
+    z-index: 1;
+}
+.tk-birch-std{
+    font-family: 'sacramento', cursive;
+    font-size: 30px;
+    color: #003663;
+    padding-top: 0.5em;
+    padding-left: 23%;
+    
+}
+.EscapeSecondText{
+   color: #56412b;
+   font-family: 'sacramento', cursive;
+   font-size:30px;
+    padding-left: 25%;
+    margin-top: 10%;
+    font-weight: 400;
+}
+#abUS{
+    background-image: url(../images/ramka2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:309px;
+    height: 333px;
+    display: flex;
+    justify-content: flex-start;
+        '
+}
+.me{
+    margin-top: 31.5%;
+    margin-left: 39.5%;
+    background-image: url(../images/ja.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 93px;
+    height: 114px;
+}
+.napis{
+    font-family: Algerian;
+    font-size: 16px;
+    margin-top: 1.7em;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.neon{
+    position: absolute;
+    top: 3%;
+    left: 186px;
+}
+.round1{
+    position: absolute;
+    left: 21%;
+    top:44%;
+    height: 90px;
+    width: 90px;
+    background: black;
+    opacity: 0.8;
+    border-radius: 50px;
+    display: inline-block;
+}
+.round2{
+    position: absolute;
+    left: 49%;
+    top: 44%;
+    height: 90px;
+    width: 90px;
+    background: black;
+    opacity: 0.8;
+    border-radius: 50px;
+    display: inline-block;
+}
+.findOut{
+    font-family: sacramento;
+    font-size: 30px;
+    padding-left: 10%;
+}
+.oldPaperInfo2{
+    text-align:justify;
+    font-size: 15px;
+    margin-left: 8px;
+    padding-right:14px;
+    font-family: georgia;
+}
+
+.oldPaper{
+    background-image: url(../images/kraft%20sketch%20book.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:766px;
+    height: 536px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-left: 5%;   
+}
+.findOut{
+    font-family: sacramento;
+    font-size: 30px;
+    padding-left: 10%;
+}
+a{
+    text-decoration: underline;
+    color: #56412b;
+}
+
+.window{
+    font-family: 'sacramento', cursif;
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    margin-top:10%;
+}
+
+.shoplink{
+    color:#ffffff;
+    text-decoration: none;
+}
+.mama{
+    display:none;
+}
+.followText{
+    font-family: 'sacramento', cursif;
+    color:#003663;
+    font-size: 40px;
+}
+.toggle{
+   margin-left: -11%;
+    margin-top: 9%;
+    background-image: url(../images/kr%C3%B3lik.png);
+    border: 2px dotted red;
+    width: 120px;
+    height: 218px;
+    border-radius:5px;
+    font-family: georgia;
+    font-size:14px;
+    color:darkslategrey;
+    text-align: center;    
+}
+.underline{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: parisienne;
+}
+#container2{
+    background-image: url(../images/Backgroundrevers.png);
+}
+.orange{
+    margin-top: 3em;
+    background-size: contain;
+    width: 20em;
+    height: 27em;
+    display: flex;
+    /*background-color: orange;*/
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.blue{
+    /*background-color: blue;*/
+    margin-top: 3em;
+    background-size: contain;
+    width: 20em;
+    height: 27em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    width: 100%;
+    height: 430px;
+    background-image: url(../images/karta1.png);
+    padding-top: 5em;
+    background-repeat: no-repeat;
+}
+.book2{
+    width: 100%;
+    height: 430px;
+    background-image: url(../images/karta2.png);
+    padding-top: 5em;
+    background-repeat: no-repeat;
+}
+.book3{
+    width: 100%;
+    height: 430px;
+    background-image: url(../images/karta3.png);
+    padding-top: 6em;
+    background-repeat: no-repeat;
+    
+}
+.none{
+    display: none;
+}
+
+.oldPaperInfo{
+    color:#56412b;
+    text-align: center;
+    font-family: sacramento;
+    margin-top: 1em;
+    
+}
+.oldPaperInfo2{
+    text-align:justify;
+    font-size: 15px;
+    margin-left: 8px;
+    padding-right:22px;
+    font-family: georgia;
+}
+.back{
+    font-family: sacramento;
+    font-size: 28px;
+    color:#56412b;
+    text-decoration: underline;
+    
+}
+.back2{
+     margin-left: 35%;
+    
+}
+
+.leftBook{
+    display: inline-block;
+    width:50%;
+    margin-left: 5px;
+    float: left;
+    
+}
+#findOutMore {
+    display: inline-block;
+    width:46%;
+    float: left;
+}
+.key{
+    background-image: url(../images/Key.png);
+    width:100%;
+    height: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5em;
+}
+.witaj{
+    height: 50px;
+    font-family: sacramento;
+    font-size: 32px;
+    width: 100%;
+    color: #56412b;
+    margin-top: 5em;
+    padding-left: 2em;
+}
+
+#container3{
+    background-image: url(../images/backgroundshop.png);
+    
+}
+.sorry{
+    font-family: sacramento;
+    font-size: 60px;
+    color:#56412b;
+    text-align: center;
+    border:2px dashed #56412b;
+    padding: 5px;
+}
+    
+
+
+@media (max-width: 1280px) and (min-width: 768px){
+    .tk-birch-std, .EscapeSecondText, .findOut{
+       font-size: 25px;
+       padding-left: 2em;
+    }
+    .escape{
+        margin-top: 8em;
+        display: block;
+        z-index: 2;
+    }
+    .insta{
+        left:30em;
+    }
+    .me{
+        background-size: contain;
+        background-image: url(../images/Eiffel.png);
+        width: 80px;
+        height: 100px;
+        margin-left: 8em;
+    }
+    .round1{
+        left: 36%;
+        top: 38%;
+    }
+    .round2{
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) and (min-width: 480px){
+    .tk-birch-std, .EscapeSecondText, .findOut{
+        font-size: 20px;
+        padding-top: 2px;
+        padding-left: 26px;
+    }
+    .escape{
+        margin-top: 12em;
+        display: block;
+        z-index: 2;
+    }
+    .neon{
+        position: absolute;
+        top:-2%;
+        left:55px;
+    }
+    .round1, .round2{
+        display: none;
+    }
+    .game{
+       margin-left: -2em;
+       margin-top: 3em;
+    }
+    .insta{
+        left:16em;
+    }
+    .napis{
+        margin-top: 1.3em;
+    }
+    .oldPaperInfo2{
+        font-size: 12px;
+    }
+    #abUS{
+        display: none;
+    }
+    .oldPaper{
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width:480px){
+    #container2{
+        display: none;
+    }
+}
+
+
+
+
+
+
+    
